@@ -1,0 +1,18 @@
+{
+  "name": "xgrn-baseview",
+  "version": "0.1.10",
+  "description": "RN-基础组件库库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.ops.com:XGN-RN/npm-module/XGBaseview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
+}

@@ -1,0 +1,47 @@
+ext {
+    app = [
+            "applicationId"       : "com.fc.wawq.opew.aje",
+            "VERSION_CODE"        : 1,
+            "CODE_PUSH_SERVER_URL": "",
+            "CODE_PUSH_KEY"       : "",
+            "JPUSH_APPKEY"        : "",
+            "APP_CHANNEL"         : "default",
+            "UMENG_APPKEY"        : "",
+            "UMENG_MESSAGE_SECRET": "",
+            "XG_ACCESS_ID"        : "",
+            "XG_ACCESS_KEY"       : "",
+            "XG_HW_APPID"         : ""
+    ]
+    // 登录分享，无则不填
+    social = [
+            "WECHAT_APP_ID"          : "",
+            "WECHAT_APP_SECRET"      : "",
+            "QQ_APP_ID"              : "",
+            "QQ_APP_SECRET"          : "",
+            "QQ_APP_CALLBACK"        : "",
+            "SINA_WEIBO_APP_ID"      : "",
+            "SINA_WEIBO_APP_SECRET"  : "",
+            "SINA_WEIBO_APP_CALLBACK": ""
+    ]
+    // 如果是使用 RN 开发的过审，请修改这些配置，否则，勿动
+    localRN = [
+            // 如果是 ReactNative 开发的壳，需要修改为 true
+            "SHELL_IS_REACT_NATIVE"      : "true",
+            // 如果是 ReactNative 开发的壳，需要填写 JS 层注册的 Component 名称
+            "SHELL_RN_COMPONENT_NAME"    : "app",
+
+            // 如果是 ReactNative 开发的壳，并且也是使用 CodePush 作为升级，需要修改为 true
+            "SHELL_REACT_NATIVE_CODEPUSH": "false",
+            // 如果是 CodePush 作为升级，配置 服务端url，无则不填
+            "SHELL_CODE_PUSH_SERVER_URL" : "",
+            // 如果是 CodePush 作为升级，配置 CodePush Key
+            "SHELL_CODE_PUSH_KEY"        : "",
+    ]
+    // 如果是使用 WEB 开发的审核，请修改配置，否则，勿动
+    localWeb = [
+            // 如果是 WEB 开发的壳，需要修改为 true
+            "SHELL_IS_WEB" : "false",
+            // 如果是 WEB 开发的壳，需要填写 壳网址
+            "SHELL_WEB_URL": "https://example.com",
+    ]
+}

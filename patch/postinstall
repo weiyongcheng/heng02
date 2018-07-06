@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var os = require('os');
+var exec = require('child_process').exec;
+
+var systemName = os.platform();
+if(systemName == "darwin") {
+  // for OSX
+  var child = exec('bash patch/postinstall.sh', function(err, stdout, stderr) {
+    if (err) throw err;
+    console.log(stdout);
+  });
+}
